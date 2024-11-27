@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sertivikat - Fauzi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    
+    <style>
+
+    *{
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+        transition: all .2s linear;
+
+    }
+
+    body {
+        background: #222;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .gallery a {
+        height: 200px;
+        width: 300px;
+        margin: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0 3px 5px #000;
+    }
+
+    .gallery a img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .gallery a img:hover{
+        transform: scale(1,4);
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 10px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif ;
+
+    }
+
+    </style>
+
+
+
+</head>
+<body>
+    
+    <h1> Sertivikat Fauzi</h1>
+
+
+    <div class="gallery">
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+        <a href="images/Projects/sertivikat1.jpeg">
+            <img src="images/Projects/sertivikat1.jpeg" alt="">
+        </a>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+
+        lightGallery(document.querySelector('.gallery'));
+
+    </script>
+
+
+</body>
+</html>
